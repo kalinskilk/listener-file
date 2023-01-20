@@ -8,6 +8,8 @@ As tecnologias utilizadas foram:
 
 - `chokidar`
 
+- `node-notifier`
+
 ## COMO FUNCIONA?
 
 Inicialmente instale as dependências: `yarn install` ou `npm install`
@@ -18,5 +20,9 @@ Depois rode os comandos:
 Em seguida execute alterações no arquivo `file-listen.txt`, você vera uma mensagem parecida com essa no terminal:
 
 ```console
-File C:\listener-file\file-listen.txt has been changed
+File D:\listener-folder\file-listen.txt has been changed
 ```
+
+Você também vai ser notificado, como a seguir:
+
+![alt text](notification.png "Notificação")
